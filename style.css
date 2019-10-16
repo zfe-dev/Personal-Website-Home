@@ -1,0 +1,185 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+
+body{line-height:1}
+
+html,body{
+    width:100%;
+    height:100%;
+    background:#007bff;
+}
+
+img{
+    padding-top: 10px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+canvas{
+    display:block;
+    vertical-align:bottom;
+}
+
+.white-divider{
+    width: 100px;
+    height: 2px;
+    background: white;
+    margin: 0px auto;
+}
+
+ /*  PARTICLES JS DIV  */
+
+#particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+  /*  INFORMATION DIV  */
+
+#informationContainer {
+    margin-top: 30px;
+    margin-left: 15%;
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    text-align: center;
+    /*background-color: #eeeeee; */
+}
+
+   /*  INFORMATION DIV  -  PRESENTATION*/
+
+#presentation {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: 35%;
+    background-color: #003e80;
+}
+
+.profile-picture{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+#presentation h1 {
+    font-size: 32px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Lato Heavy', sans-serif;
+    text-transform: uppercase;
+}
+
+#presentation .white-divider {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#presentation p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato Heavy', sans-serif;
+    text-transform: uppercase;
+}
+
+   /*  INFORMATION DIV  -  PRESENTATION*/
+
+#redirectionOptions {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    width: 100%;
+    height: 40%;
+    background-color: #007bff;
+}
+
+#redirectionOptions h2 {
+    font-size: 35px;
+    font-family: "DejaVu Sans";
+    margin: 20px 0px;
+    color: white;
+}
+
+#redirectionOptions p {
+    font-size: 22px;
+    font-style: oblique;
+    color: #c6c8ca;
+}
+
+#redirectionOptions .redirectionPart {
+    display: block;
+    width: 100%;
+    height: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #007bff;
+    transition: all 0.1s ease-in 0s;
+}
+
+#resumePart:hover {
+    color: #007bff;
+    background-color: #001933;
+}
+
+#projectPart:hover {
+    color: #007bff;
+    background-color: #001933;
+
+}
+
+    /*  INFORMATION DIV   -   FOOTER   */
+#footerPanel {
+    width: 100%;
+    height: 20%;
+    background-color: #003e80;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+#LinkedIn {
+    margin-right: 5%;
+}
+
+#GitHub {
+    margin-left: 5%;
+}
+
+.butt {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 12px 3% 12px 3%;
+    border-radius: 3px;
+    display: inline-block;
+    transition: all 0.1s ease-in 0s;
+    background-color: #007bff;
+}
+
+.butt:hover{
+    border-color: #b61924;
+    background: #dddddd;
+    color: #b61924;
+    text-decoration: none;
+}
+
+#footerPanel p {
+    color: white;
+    font-size: 12px;
+    margin-top: 15px;
+}
