@@ -12,7 +12,7 @@ $head = Array(
 $presentation = Array (
     'name' => 'Baptiste Dubillaud',
     'age' => '21 years old',
-    'description' => 'penultimate year in IT master degree',
+    'description' => 'penultimate year in IT master\'s degree',
 );
 
 $redirection = Array (
