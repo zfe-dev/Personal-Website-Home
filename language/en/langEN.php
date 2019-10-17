@@ -23,7 +23,7 @@ $redirection = Array (
         "description" => 'Access to my resume !'
     ),
     Array (
-        "id" => 'redirectionPart',
+        "id" => 'projectPart',
         "link" => 'https://projects.dubillaudb.fr/?lang=en',
         "name" => 'Projects',
         "description" => 'Aaccess to my projects !'
@@ -35,7 +35,7 @@ $footerPan = Array (
         Array (
             "cssId" => 'LinkedIn',
             "name" => 'LinkedIn',
-            "link" => 'https://www.linkedin.com/in/baptiste-dubillaud/'
+            "link" => 'https://www.linkedin.com/in/baptiste-dubillaud/?locale=en_US'
         ),
         Array (
             "cssId" => 'frButton',
